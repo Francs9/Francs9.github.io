@@ -11,4 +11,4 @@ bla bla bla bla bla
 
 ikdghihglisdhgiludhgudfhg
 
-![Un gato](/home/users/inf/hisx2/isx1535386/PROJECTE/foobar/img/gato.jpg )
+![un gatito]({{ site.baseurl }}/img/gato.jpg) )
