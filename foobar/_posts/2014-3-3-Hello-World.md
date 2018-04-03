@@ -11,3 +11,4 @@ bla bla bla bla bla
 
 ikdghihglisdhgiludhgudfhg
 
+![Texto alternativo](/home/users/inf/hisx2/isx1535386/PROJECTE/foobar/img "Título alternativo")
