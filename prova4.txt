@@ -1,4 +1,0 @@
-hola.txt
-prova3.txt
-prova4.txt
-provassh.txt
