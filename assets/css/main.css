@@ -113,7 +113,8 @@ dfn {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+  }
 
 /**
  * Address styling not present in IE 8/9.
@@ -354,12 +355,14 @@ td,
 th {
   padding: 0; }
 
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon.eot?uh228n");
   src: url("../fonts/icomoon.eot?#iefixuh228n") format("embedded-opentype"), url("../fonts/icomoon.ttf?uh228n") format("truetype"), url("../fonts/icomoon.woff?uh228n") format("woff"), url("../fonts/icomoon.svg?uh228n#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
+
 
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
@@ -525,9 +528,10 @@ h1, h2, h3, h4, h5, h6 {
 .small, small {
   font-size: 10px;
   line-height: 1.2; }
-
+/*color de letra de texto*/
 p {
-  margin: 0 0 20px 0; }
+  margin: 0 0 20px 0; 
+  color:blue;}
 
 em {
   font-style: italic; }
@@ -572,16 +576,19 @@ body {
   -webkit-tap-highlight-color: #FFF498; }
 
 body {
-  background: white;
+/*cambiomos el color de fondo a celeste*/
+  background: #67e8ec;
   font-size: 14px;
   line-height: 1.6;
   font-family: 'Open Sans' sans-serif;
-  color: #666;
+/*cambiomos el color de la letras de contacto*/
+  color: black;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
+/* centramos la breve descipcion y lo que contiene*/
 h2 {
-  color: #303e49;
+  color: blue;
   text-align: center;
   padding: 50px 0 30px; }
 
@@ -589,16 +596,23 @@ h2 {
   h2 {
     padding: 50px 0 50px; } }
 
+
+/*pones el tamaño de la fuente del boby i de las letras*/
 h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_small .kicker {
   font-size: 14px;
   font-weight: 700;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color:black; 
+  }
 
+/*
 @media only screen and (min-width: 1070px) {
   .logo {
     height: 70px;
     width: 70px;
+
     background: url(../img/GOC1.png) center center;
+
     background-size: 70px 47px;
     background-repeat: no-repeat;
     position: fixed;
@@ -621,23 +635,10 @@ h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_sm
     background-size: 15px;
     background-color: #303e49;
     border-radius: 30px; } }
-
-@media only screen and (min-width: 220px) {
-  .arrow {
-    display: none; }
-  .logo {
-    height: 90px;
-    width: 90px;
-    background: url(../img/GOC1.png) center center;
-    width: 88px;
-    height: 47px;
-    background-size: 88px 47px;
-    background-repeat: no-repeat;
-    float: left;
-    margin: 30px 0 0 30px; } }
-
+*/
+/*Ponemos la imagen de portada para el portfolio digital*/
 header {
-  background: url(../img/galway2.jpg) center center;
+  background: url(../img/kk2.jpg) center center;
   background-size: cover; }
   @media only screen and (min-width: 220px) {
     header {
@@ -653,7 +654,8 @@ header {
     margin: 30px 30px 30px; }
     header nav a {
       margin-left: 20px;
-      color: rgba(0, 0, 0, 0.5); }
+/*cambiomos color de contacto */
+      color: silver; }
       @media only screen and (min-width: 220px) {
         header nav a {
           display: none; } }
@@ -664,7 +666,8 @@ header {
         color: black; }
   header h1 {
     text-align: center;
-    color: rgba(0, 0, 0, 0.5);
+/*cambiomos color de titulo*/
+    color: silver;
     text-transform: uppercase;
     letter-spacing: 0.05cm;
     margin-bottom: 20px;
@@ -700,10 +703,11 @@ header {
   header .kicker {
     text-align: center;
     line-height: 1;
-    color: rgba(0, 0, 0, 0.5); }
+    color: silver; }
 
+/*Color de la parte de abajo*/
 footer {
-  background: url(../img/galway3.jpg) center center;
+  background: url(../img/kk2.jpg) center center;
   background-size: cover; }
   footer .lockup {
     padding: 50px 30px; }
@@ -715,14 +719,23 @@ footer {
       margin: 0;
       text-transform: uppercase;
       font-size: 12px;
+/*
       color: rgba(0, 0, 0, 0.4); }
+*/
+      color:red;}
     footer .lockup a {
+/*
       color: rgba(0, 0, 0, 0.6);
+*/ 
+/*cambiamos color de contacto de silver*/
+      color:silver;
       display: inline-block;
       margin-right: 30px; }
       footer .lockup a:hover {
         color: black; }
 
+
+/*imagen de perfil de un gato*/
 @media only screen and (min-width: 220px) {
   .about-lock {
     margin: auto; }
@@ -738,12 +751,12 @@ footer {
       display: flex;
       margin: auto;
       border-radius: 60%;
-      background: url(../img/face.JPG) no-repeat; }
+      background: url(../img/gato2.png) no-repeat; }
     .about-lock .face1-img {
       height: 180px;
       width: 180px;
       border-radius: 50%;
-      background: url(../img/android.JPG);
+      background: url(../img/gato2.png);
       margin: auto; }
     .about-lock .flip-container {
       -webkit-perspective: 1000;
@@ -792,6 +805,7 @@ footer {
     .about-lock .flaticon-computers13 {
       display: none; } }
 
+/*Mostrar imagenes de host compunter i demas al rededor del el perfil*/
 @media only screen and (min-width: 650px) {
   .about-lock {
     max-width: 680px;
@@ -876,7 +890,10 @@ footer {
   text-align: center; }
 
 .section-contact {
+/*
   background: #e5eaee;
+*/
+  background: #239598;
   text-align: center; }
 
 .social-links {
@@ -904,46 +921,58 @@ footer {
     display: block;
     font-size: 60px;
     line-height: 70px;
-    color: #303e49;
+/*cambiamo color de logos de contactos youtube,facebook y twiter*/
+    color: white;
     -webkit-transition: all 0.15s ease-out 0s;
     transition: all 0.15s ease-out 0s;
     margin-left: 0; }
 
+/*Juntamos la line de contactos*/
 .bar {
   width: 250px;
   height: 0px;
   margin: 40px auto 40px;
   border-top: 4px solid #303e49; }
 
+/*La parte de blog more*/
 .bar-blog {
   width: 250px;
   height: 0px;
   margin: 20px auto 20px;
-  border-top: 4px solid #303e49; }
+  border-top: 4px solid #303e49; 
+  color:blue;}
 
+/* la parte de mas blog
 .blog-end {
   padding-top: 100px; }
+*/
 
+/*La parte del correo que ponemos mi correo*/
 .biglink {
   display: inline-block;
   margin-bottom: 70px;
-  color: #303e49;
-  font-size: 72px;
-  font-weight: 300; }
+  color: #31373c;
+  font-size: 52px;
+  font-weight: 150; }
 
 .biglink:hover {
   -webkit-transform: scale(1.02);
   transform: scale(1.02); }
 
+/*
 *, *:after, *:before {
   box-sizing: border-box; }
+*/
 
 .history {
-  background: #e5eaee; }
+  background: #e5eaee;
+/*background: #67e8ec; color celeste*/
+   }
 
 .cd-width {
   background: #e5eaee; }
 
+/*color de letras del portfolio*/
 .cd-container {
   background: #e5eaee;
   width: 90%;
@@ -954,6 +983,7 @@ footer {
     display: table;
     clear: both; }
 
+/*
 #cd-timeline {
   position: relative;
   padding: 2em 0;
@@ -974,6 +1004,7 @@ footer {
       #cd-timeline::before {
         left: 50%;
         margin-left: -2px; } }
+*/
 
 .cd-timeline-block {
   position: relative;
@@ -993,44 +1024,6 @@ footer {
         margin-top: 0; }
       .cd-timeline-block:last-child {
         margin-bottom: 0; } }
-
-.cd-timeline-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 4px #ffffff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05); }
-  .cd-timeline-img img {
-    display: block;
-    width: 24px;
-    height: 24px;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    margin-left: -12px;
-    margin-top: -12px; }
-  .cd-timeline-img.cd-picture {
-    background: #303e49; }
-  .cd-timeline-img.cd-movie {
-    background: #303e49; }
-  .cd-timeline-img.cd-location {
-    background: #303e49; }
-  @media only screen and (min-width: 1070px) {
-    .cd-timeline-img {
-      width: 60px;
-      height: 60px;
-      left: 50%;
-      margin-left: -30px;
-      -webkit-transform: translateZ(0);
-      -webkit-backface-visibility: hidden; }
-      .cssanimations .cd-timeline-img.is-hidden {
-        visibility: hidden; }
-      .cssanimations .cd-timeline-img.bounce-in {
-        visibility: visible;
-        -webkit-animation: cd-bounce-1 0.6s;
-        animation: cd-bounce-1 0.6s; } }
 
 @-webkit-keyframes cd-bounce-1 {
   0% {
@@ -1054,6 +1047,7 @@ footer {
   100% {
     -webkit-transform: scale(1);
     transform: scale(1); } }
+
 
 .cd-timeline-content {
   position: relative;
@@ -1142,17 +1136,9 @@ footer {
           left: auto;
           right: 122%;
           text-align: right; }
-      .cssanimations .cd-timeline-content.is-hidden {
-        visibility: hidden; }
-      .cssanimations .cd-timeline-content.bounce-in {
-        visibility: visible;
-        -webkit-animation: cd-bounce-2 0.6s;
-        animation: cd-bounce-2 0.6s; } }
+}}
 
-@media only screen and (min-width: 1070px) {
-  .cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
-    -webkit-animation: cd-bounce-2-inverse 0.6s;
-    animation: cd-bounce-2-inverse 0.6s; } }
+
 
 @-webkit-keyframes cd-bounce-2 {
   0% {
@@ -1376,7 +1362,7 @@ form {
 
 #h_small {
   height: 170px;
-  background: url(../img/galway2.jpg) center center;
+  background: url(../img/kk2.jpg) center center;
   background-size: cover; }
   #h_small #nav_small {
     float: right;
@@ -1384,14 +1370,14 @@ form {
     #h_small #nav_small a {
       display: inline-block;
       margin-left: 10px;
-      color: rgba(0, 0, 0, 0.5); }
+      color: silver; }
       #h_small #nav_small a:hover {
         color: black; }
   #h_small #h1_small {
     display: inline-block;
     font-size: 72px;
     font-weight: 700;
-    color: rgba(0, 0, 0, 0.5);
+    color: silver;
     text-transform: uppercase;
     letter-spacing: 0.05cm; }
     #h_small #h1_small span {
